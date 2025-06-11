@@ -1,5 +1,6 @@
 
 import Contato from './Contato';
+import DireitosAutorais from './DireitosAutorais';
 import Mapa from './Mapa';
 
 function Footer(props) {
@@ -8,6 +9,7 @@ function Footer(props) {
       <Contato/>
 
       <Mapa/>
+      <DireitosAutorais/>
     </div>
   );
 }
